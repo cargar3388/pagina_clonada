@@ -1,0 +1,147 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #ffffff;
+}
+.menu{
+    list-style: none;
+    width: 50%;
+    position: absolute;
+    left: 35%;
+}
+.menu li a{
+    padding: 10px 30px;
+    color: #68788C;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background-color: #3151CF;
+    padding: 10px 30px;
+    border-radius: 5%;
+    color: #ffffff;
+}
+.tituloprincipal{
+    color: #3151CF;
+    position: absolute;
+    left: 10%;
+    top: 2%;
+}
+.botoncabecera{
+    background-color: #3151CF;
+    color: #ffffff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5%;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 83%;
+    top: 5%;
+}
+#Enfermera{
+    position: absolute;
+    left: 52.6%;
+    top: 18%;
+    border-radius: 5%;
+    border: 2px solid #3151CF;
+}
+.Secc1{
+    position: absolute;
+    width: 35%;
+    left: 10%;
+    top: 18%;
+}
+.titulo1Secc{
+    font-size: 70px;
+    color: #143D73;
+    font-weight: bold;
+}
+.P1Secc{
+    font-size: 25px;
+    color: #64738D;
+}
+.div1Secc{
+    color: #143D73;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+.div2Secc{
+    color: #143D73;
+    font-size: 25px;
+    display: inline-block;
+    font-weight: bold;
+    display: block;
+}
+.Secc2{
+    background: rgba( 255, 255, 255, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: absolute;
+    width: 65%;
+    left: 10%;
+    top: 110%;
+    padding: 15px 20px;
+}
+.div1Secc2{
+    color: #64738D;
+    font-size: 25px;
+    display: inline-block;
+    font-weight: bold; 
+    text-align: left;
+    width: 80%;
+}
+.lista1 li{
+    list-style: none;
+    font-size: 30px;
+    color: #143D73;
+    font-weight: bold;
+    display: inline;
+    padding-right: 30px;
+}
+.botonSecc2{
+    background-color: #3151CF;
+    color: #ffffff;
+    border: none;
+    padding: 18px 46px;
+    border-radius: 5%;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 80%;
+    top: 28%;
+}
+#Logos{
+    position: absolute;
+    top: 145%;
+    opacity:.20;
+}
+.Secc3{
+    position: absolute;
+    width: 50%;
+    left: 10%;
+    top: 180%;
+}
+.titulo1Secc3{
+    font-size: 50px;
+    color: #143D73;
+    font-weight: bold;
+}
+.P1Secc3{
+    font-size: 25px;
+    color: #64738D;
+}
